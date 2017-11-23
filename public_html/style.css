@@ -1,6 +1,69 @@
+body{
+    color: #506a85;
+}
+
+.btn-default{
+    color: white;
+    font-weight: bold;
+    background-color: #48bb9c;
+}
+
 .section{
     padding: 100px 300px 100px 300px;
 }
 .section-title{
     text-align: center;
+    padding: 0px 300px 50px 300px;
+}
+
+.who-are{
+    padding-bottom: 350px;
+}
+
+.wh-re-icon{
+    display: inline-block;
+    float: left;
+}
+
+.wh-re-sect{
+    padding: 0px 20px 20px 20px;
+    width: 84%;
+    float: left;
+    display: inline-block;
+}
+
+.wh-re-sect h3{
+    margin-top: 0px;
+}
+
+.wh-re-sect p {
+  margin-top: 20px;
+}
+
+.lat-works{
+    background-color: #f1f5f8;
+}
+
+.works-thumbs{
+    margin-bottom: 70px;
+}
+
+.thumbnail{
+/*    margin: 0px;*/
+    padding: 0px;
+    width: 563px;
+}
+
+.foot{
+    color: #acb3ba;
+    padding-bottom: 300px;
+    background-color: #2f4052;
+}
+
+.foot a{
+    color: #00bc9c;
+}
+
+.foot h3{
+    color: white;
 }

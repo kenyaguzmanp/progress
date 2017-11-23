@@ -16,6 +16,10 @@ body{
     padding: 0px 300px 50px 300px;
 }
 
+.section-title h2{
+    font-weight: bold;
+}
+
 .who-are{
     padding-bottom: 350px;
 }
@@ -53,6 +57,13 @@ body{
     padding: 0px;
     width: 563px;
 }
+.caption h3{
+    font-weight: bold;
+    color: #506a85;
+}
+.caption p{
+    color: #506a85;
+}
 
 .foot{
     color: #acb3ba;
@@ -66,4 +77,23 @@ body{
 
 .foot h3{
     color: white;
+}
+
+.carousel-indicators{
+    bottom: 0px;
+    margin-left: auto;
+    width: 100px;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.carousel-indicators .active{
+    border-color: #00bc9c;
+    background-color: #00bc9c;
+}
+
+.carousel-indicators li{
+    border-color: #506a85;
+    background-color: #506a85;
 }

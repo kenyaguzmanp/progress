@@ -9,7 +9,7 @@ body{
 }
 
 .section{
-    padding: 100px 300px 100px 300px;
+    padding: 100px 300px 100px 370px;
 }
 .section-title{
     text-align: center;
@@ -31,7 +31,7 @@ body{
 
 .wh-re-sect{
     padding: 0px 20px 20px 20px;
-    width: 84%;
+    width: 80%;
     float: left;
     display: inline-block;
 }
@@ -197,5 +197,74 @@ body{
 
 .bottomFootsection{
 /*   display: inline-block;*/
-   padding: 10px 16px 20px 300px;
+   padding: 10px 16px 20px 400px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #506a85;
+}
+
+
+#navbarBigDown{
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px 300px 20px 370px;
+    margin-bottom: 0px;
+    background-color: white;
+}
+
+#navbarBigUpper{
+  border: none;
+   padding: 0px 300px 0px 370px;
+   margin-bottom: 0px;
+   background-color: #f5f7fa;  
+}
+
+.socialNav i{
+    color: white;
+}
+
+.navbarInfo i{
+    padding-right: 15px;
+}
+
+#mailInfonav {
+    padding-left: 0px;
+}
+
+
+#facebookContainer{
+    background-color: #4668b3;
+}
+
+#googlePlusContainer{
+    background-color: #de5745
+}
+
+#twitterContainer{
+    background-color: #2fbbed;
+}
+
+#pinterestContainer{
+    background-color: #d94348;
+}
+
+#behanceContainer{
+    background-color: #3079ff;
+}
+
+#dribbleContainer{
+    background-color: #eb6397;
+}
+
+.searchNav{
+   color: #506a85;
+   background-color: white;
+   border:none;
+}
+
+#searchInputNav{
+    width: 20px;
+    border: none;
 }

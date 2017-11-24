@@ -54,6 +54,7 @@ body{
 
 .thumbnail{
 /*    margin: 0px;*/
+    text-align: center;
     padding: 0px;
     width: 563px;
 }
@@ -80,8 +81,10 @@ body{
 }
 
 .carousel-indicators{
-    bottom: 0px;
-    margin-left: auto;
+    padding-top: 8px;
+    bottom: -17px;
+        margin-left: -57px;
+/*    margin-left: auto;*/
     width: 100px;
     margin-right: auto;
     background-color: white;
@@ -97,3 +100,48 @@ body{
     border-color: #506a85;
     background-color: #506a85;
 }
+
+.indicators2{
+   width: 60px;
+    margin-left: -43px;
+    bottom: -64px;
+    background-color: #f1f5f9;
+}
+
+
+
+.control2{
+    position: absolute;
+    background-color: #c9d2da;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.control2 i{
+    color: white;
+}
+
+/*.left2, .right2{
+    background-color: blue;
+    padding: 10px;
+    display: inline-block;
+}*/
+
+.left2{
+   top: 112%;
+   right: 54%;
+}
+
+.right2{
+    top: 112%;
+    right: 45.9%;
+    left: auto;
+}
+/*
+
+.carousel-control.right.right2{
+    width: 30px;
+    top: 100%;
+    right: 40%;
+}*/

@@ -145,3 +145,18 @@ body{
     top: 100%;
     right: 40%;
 }*/
+.input-group2{
+    padding-right: 6px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#basic-addon2{
+    border-radius: 5px; 
+}
+
+
+#inputSuscribe{
+    padding: 23px 7px 23px 10px;
+    border-style: none;
+}

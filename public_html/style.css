@@ -71,6 +71,52 @@ body{
     color: #506a85;
 }
 
+/*hover style for thumbnail */
+.imgHolderlatW{
+    cursor: pointer;
+    width: 561px;
+   height: 385.19px;
+   position: relative;
+}
+
+.imgHolderlatW::before {
+  content: '';
+  background: url('slider2hoverimg_22.png');
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.image-holderlatW{
+  background: url('Exercise-Possible_15.png');
+}
+.image-holderlatW:hover::before {
+  opacity: .7; /* amount of opacity to blend the two images */
+}
+
+.image-holderlatW2{
+  background: url('Exercise-Possible_17.png');
+}
+.image-holderlatW2:hover::before {
+  opacity: .7; /* amount of opacity to blend the two images */
+}
+
+.thumbnail:hover .caption h3{
+    color: #00bc9c;
+}
+
+
+
+/*                            */
+
+
+
+
+
 .foot{
     color: #acb3ba;
     padding-bottom: 300px;
@@ -157,9 +203,19 @@ body{
 
 .right2{
     top: 112%;
-    right: 45.9%;
+    right: 45%;
     left: auto;
 }
+
+.control2:hover{
+    background-color: #506a85;
+}
+
+.control2:hover i{
+    color: #00bc9c;
+}
+
+
 
 /* carousel images 2 */
 .imgHolderCar2{
@@ -312,13 +368,72 @@ body{
     color: white;
 }
 
-.navbarInfo i{
-    padding-right: 15px;
+.navbarInfo{
+    font-weight: bold;
 }
 
 #mailInfonav {
     padding-left: 0px;
 }
+
+.navbarInfo i{
+    padding-right: 15px;
+}
+
+.navbarInfo li a:hover i{
+    color: #00bc9c;
+} 
+
+#phoneInfonav:hover {
+    color: #00bc9c;
+} 
+#mailInfonav:hover {
+    color: #00bc9c;
+}
+
+.main-logo{
+        margin-right: 45px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+   
+    color: #49bc9d;
+
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-color: lightgray;
+    color: #49bc9d;
+    background-color: #f5f7fb;
+    border-style: solid;
+    border-width: thin;
+}
+
+.dropdown-menu{
+    padding-bottom: 0px;
+    background-color: #f5f7fb;
+    border-style: solid;
+    padding-top: 0px;
+    border-color: lightgray;
+    border-top-right-radius: 4px;
+}
+
+.dropdown-menu>li>a{
+    font-weight: bold;
+    color: #506a85;
+    padding: 18px 21px;
+}
+
+.dropdown-menu>li>a:hover{
+    background-color: #49bc9d;
+    color: white;
+
+}
+
+
 
 
 #facebookContainer{
@@ -409,4 +524,17 @@ body{
   opacity: .7; /* amount of opacity to blend the two images */
 }
 
+#upButton{
+    background-color: #506a85;
+    border: none;
+    color: #949ba2;
+}
+
+#upButton:hover i{
+    color: #00bc9c;
+}
+
+#upButton:focus i{
+    color: #00bc9c;
+}
 

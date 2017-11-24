@@ -148,15 +148,54 @@ body{
 .input-group2{
     padding-right: 6px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #4e5c6c;
 }
 
 #basic-addon2{
+    border: none;
     border-radius: 5px; 
 }
 
 
 #inputSuscribe{
+    background-color: #4e5c6c;
     padding: 23px 7px 23px 10px;
     border-style: none;
+}
+
+.touch .fa{
+   padding: 8px 8px 8px 0px;
+}
+
+.footLinks, .copyRight, .footLinksWrapp{
+    display: inline-block;
+}
+
+
+.footLinks{
+        margin-right: 300px;
+}
+.footLinksWrapp{
+    float: right;
+}
+
+.footLinksButton{
+    display: inline-block;
+}
+
+.footLinks li{
+    float: left;
+}
+.footLinks a{
+    padding: 5px;
+}
+.footLinks .fa-circle{
+  font-size: 5px;
+   padding: 5px;
+   vertical-align: middle;
+}
+
+.bottomFootsection{
+/*   display: inline-block;*/
+   padding: 10px 16px 20px 300px;
 }

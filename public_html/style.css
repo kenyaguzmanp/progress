@@ -160,13 +160,66 @@ body{
     right: 45.9%;
     left: auto;
 }
-/*
 
-.carousel-control.right.right2{
-    width: 30px;
-    top: 100%;
-    right: 40%;
-}*/
+/* carousel images 2 */
+.imgHolderCar2{
+    cursor: pointer;
+    width: 270px;
+   height: 185px;
+   position: relative;
+}
+
+.imgHolderCar2::before {
+  content: '';
+  background: url('slider2hoverimg_33.png');
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.image-holderCar{
+  background: url('Exercise-Possible_22.png');
+}
+
+
+.image-holderCar:hover::before {
+  opacity: .7; /* amount of opacity to blend the two images */
+}
+
+.image-holderCar2{
+  background: url('Exercise-Possible_24.png');
+}
+
+
+.image-holderCar2:hover::before {
+  opacity: .7; /* amount of opacity to blend the two images */
+}
+
+.image-holderCar3{
+  background: url('Exercise-Possible_26.png');
+}
+
+
+.image-holderCar3:hover::before {
+  opacity: .7; /* amount of opacity to blend the two images */
+}
+
+.image-holderCar4{
+  background: url('Exercise-Possible_28.png');
+}
+
+
+.image-holderCar4:hover::before {
+  opacity: .7; /* amount of opacity to blend the two images */
+}
+
+
+
+/*              */
 .input-group2{
     padding-right: 6px;
     border-radius: 5px;

@@ -20,6 +20,11 @@ body{
     font-weight: bold;
 }
 
+.section-title p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .who-are{
     padding-bottom: 350px;
 }
@@ -73,11 +78,28 @@ body{
 }
 
 .foot a{
+    font-weight: bold;
+    color: #acb3ba;
+    text-decoration: none;
+}
+
+.foot a:hover{
     color: #00bc9c;
+}
+
+.foot p{
+    margin-bottom: 20px;
+}
+
+.foot{
+    padding-bottom: 370px;
 }
 
 .foot h3{
     color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .carousel-indicators{
@@ -158,9 +180,15 @@ body{
 
 
 #inputSuscribe{
+    font-size: 12px;
     background-color: #4e5c6c;
     padding: 23px 7px 23px 10px;
     border-style: none;
+}
+
+#inputSuscribe:focus{
+    box-shadow: none;
+    color:white;
 }
 
 .touch .fa{
@@ -197,7 +225,13 @@ body{
 
 .bottomFootsection{
 /*   display: inline-block;*/
+    background-color: #283645;
+        color: #616f7d;
    padding: 10px 16px 20px 400px;
+}
+
+.bottomFootsection a{
+        color: #616f7d
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -268,3 +302,58 @@ body{
     width: 20px;
     border: none;
 }
+
+.imgHolder{
+    cursor: pointer;
+    width: 126px;
+   height: 85px;
+   position: relative;
+}
+
+.imgHolder::before {
+  content: '';
+  background: url('hovermini_41.png');
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.image-holder {
+  background: url('minis_43.png');
+}
+
+
+.image-holder:hover::before {
+  opacity: .7; /* amount of opacity to blend the two images */
+}
+
+
+.image-holder2 {
+  background: url('minis_41.png');
+}
+
+.image-holder2:hover::before {
+  opacity: .7; /* amount of opacity to blend the two images */
+}
+
+.image-holder3 {
+  background: url('minis_47.png');
+}
+
+.image-holder3:hover::before {
+  opacity: .7; /* amount of opacity to blend the two images */
+}
+
+.image-holder4 {
+  background: url('minis_48.png');
+}
+
+.image-holder4:hover::before {
+  opacity: .7; /* amount of opacity to blend the two images */
+}
+
+
